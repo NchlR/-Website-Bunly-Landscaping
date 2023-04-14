@@ -29,17 +29,18 @@ img {
 
 h1 {
   font-size: 80px;
-  color: #31572c;
+  color: #dde5b6;
 }
 
 h2 {
   padding:20px 0 ;
   line-height: 32px;
   font-weight: 100;
+  color: #dde5b6;
 }
 
 .btn {
-  background-color:#4f772d;
+  background-color:#a98467;
   color: white;
   margin: 16px 0;
   padding: 12px 24px;
@@ -121,7 +122,7 @@ HEADER
 */
 
 .header__container {
-  background-color: #f2f2f2;
+  background-image: url(./assets/R.png);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -142,29 +143,21 @@ HEADER
 
 /* 
 
-DIVIDERS
-
-*/
-
-#winter {
-  position: relative;
-}
-
-/* 
-
 winter
 
 */
 
 .container {
-  padding: 56px 0;
-  height: 700px;
+  padding: 24px 0;
+  height: 1000px;
 }
 
 .gallery__imgs {
   display: flex;
   flex-wrap: wrap;
-  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
   padding-top: 32px;
 }
 
@@ -176,7 +169,6 @@ winter
   padding: 0 20px;
   width: 50%;
 }
-
 
 /* 
 
