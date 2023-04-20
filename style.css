@@ -137,7 +137,7 @@ HEADER
 */
 
 .header__container {
-  background-image: url(./assets/Lawn-Wallpaper-HD.png);
+  background-image: url(./assets/Lawn-Wallpaper.jpg);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -219,12 +219,18 @@ footer {
 
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 768px) {
+@media (max-width: 1130px) {
   .header__container {
     flex-direction: column;
+    text-align: center;
+    height: 1200px;
   }
 
-
+  .container {
+    display: block;
+    flex-direction: column;
+    height: fit-content;
+  }
 
   .header__description {
     padding: 0 24px;
@@ -234,31 +240,28 @@ footer {
     font-size: 26px;
   }
 
+  .gallery__imgs {
+  }
+
   .gallery__img {
-    width: 50%;
+    width: 100%;
+    max-width: fit-content;
+    align-items: center;
   }
 }
 
-
 /* SMALL PHONES, LARGE SMARTPHONES */
-
 @media (max-width: 550px) {
   .nav__links {
-      display: none;
+    display: none;
+  }
+
+  .container {
+    height: fit-content;
   }
 
   .highlight {
     width: 100%;
     margin-bottom: 24px;
   }
-
-  .highlight:not(:last-child) {
-    margin-bottom: 24px;
-  }
-}
-
-@media (max-width: 650px) {
-.header__container {
-  margin-top: 8vw;
-}
 }
